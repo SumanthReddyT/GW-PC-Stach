@@ -7,6 +7,6 @@
   <foreignkey
     fkentity="Account"
     name="Account"
-    nullok="false"/>
+    nullok="true"/>
   <events/>
 </entity>
