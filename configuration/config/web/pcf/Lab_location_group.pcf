@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../pcf.xsd">
+  <Page
+    id="Lab_location_group"
+    title="&quot;Completed Policy Transactions&quot;">
+    <LocationEntryPoint
+      signature="Lab_location_group(policyPeriod : PolicyPeriod, asOfDate : DateTime)"/>
+    <Variable
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Variable
+      name="asOfDate"
+      type="DateTime"/>
+    <Variable
+      name="policysummaryhelper"
+      type="gw.pcf.policysummary.PolicySummaryHelper"/>
+    <Screen>
+      <TitleBar/>
+      <PanelRef
+        def="Policy_Summary_TransactionsLV(policyPeriod, asOfDate)">
+        <Toolbar/>
+      </PanelRef>
+    </Screen>
+  </Page>
+</PCF>

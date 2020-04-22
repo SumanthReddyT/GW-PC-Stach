@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<import>
+  <PAVehicleCovLookup public-id="z96g8glco124a0lfjvf29f6tkga">
+    <Availability>Available</Availability>
+    <CoveragePatternCode>test</CoveragePatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>PersonalAutoLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-04-21 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+    <VehicleType/>
+  </PAVehicleCovLookup>
+  <CovTermLookup public-id="zu9j8s4lo8eru2k76v8fa9fu08a">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>DED</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>PersonalAutoLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2020-04-21 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermOptLookup public-id="z29iqd7toc0p0bh8h377l0uplmb">
+    <Availability>Available</Availability>
+    <CovTermOptCode>zi4j49pe08k1man4psuoc1i1638</CovTermOptCode>
+    <CovTermPatternCode>DED</CovTermPatternCode>
+    <Currency>usd</Currency>
+    <EndEffectiveDate/>
+    <JobType/>
+    <StartEffectiveDate>2020-04-21 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermOptLookup>
+</import>

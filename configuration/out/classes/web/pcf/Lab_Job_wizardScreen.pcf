@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../pcf.xsd">
+  <Screen
+    id="Lab_Job_wizardScreen">
+    <Require
+      name="test"
+      type="PolicyPeriod"/>
+    <PanelRef>
+      <DetailViewPanel>
+        <InputColumn>
+          <InputSetRef
+            def="PolicyInfoProducerOfRecordInputSet(test, ProducerStatusUse.TC_SUBMISSIONOKAY)"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </PanelRef>
+  </Screen>
+</PCF>

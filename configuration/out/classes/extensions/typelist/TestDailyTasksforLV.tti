@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  desc="TestDailyTasksforLV"
+  name="TestDailyTasksforLV">
+  <typecode
+    code="BreakFast"
+    desc="Type of meal"
+    name="Breakfast"/>
+  <typecode
+    code="Lunch"
+    desc="Typr of meal"
+    name="Lunch"/>
+  <typecode
+    code="Dinner"
+    desc="Type of meal"
+    name="Dinner"/>
+  <typecode
+    code="EarlyMorningSnack"
+    desc="Type of meal"
+    name="MorningSnack"/>
+  <typecode
+    code="AfternoonSnack"
+    desc="Type of Meal"
+    name="NoonSnackType of meal"/>
+  <typecode
+    code="EveningSnack"
+    desc="Type of Meal"
+    name="Evening Snack"/>
+</typelist>

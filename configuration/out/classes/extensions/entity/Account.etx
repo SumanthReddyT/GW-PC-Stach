@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="Account">
+  <typekey-override
+    default="en_US"
+    desc="The account's preferred language"
+    name="PrimaryLanguage"
+    nullok="true"/>
+  <typekey-override
+    default="en_US"
+    desc="The account's preferred locale"
+    name="PrimaryLocale"
+    nullok="true"/>
+  <remove-index
+    name="accountp3"/>
+  <index
+    desc="Index for performance of desktop account summary views."
+    name="accountp3x"
+    unique="true">
+    <indexcol
+      keyposition="1"
+      name="ID"/>
+    <indexcol
+      keyposition="2"
+      name="Retired"/>
+    <indexcol
+      keyposition="3"
+      name="CreateTime"/>
+    <indexcol
+      keyposition="4"
+      name="AccountStatus"/>
+    <indexcol
+      keyposition="5"
+      name="AccountNumber"/>
+  </index>
+  <column
+    name="Lab_TestdataStatus_Ext"
+    nullok="true"
+    type="varchar">
+    <columnParam
+      name="size"
+      value="15"/>
+  </column>
+  <column
+    name="TestDataStatus_Ext"
+    nullok="true"
+    type="varchar">
+    <columnParam
+      name="size"
+      value="15"/>
+  </column>
+</extension>
